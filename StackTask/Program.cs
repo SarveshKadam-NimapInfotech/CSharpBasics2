@@ -29,10 +29,6 @@ namespace StackTask
             return toReturn;
         }
 
-        public void Clear()
-        {
-            list.Clear();
-        }
     }
     internal class Program
     {
@@ -43,15 +39,12 @@ namespace StackTask
             int ini = 0;
             int max = 5;
 
-            for(var i = ini; i <= max; i++)
+            for(var i = ini; i < max; i++)
             {
                 stack.Push(i);
-                
             }
 
-            //stack.Clear();
-
-            for (var i = ini; i <= max; i++)
+            for(var i = ini; i < max; i++)
             {
                 Console.WriteLine(stack.Pop());
             }

@@ -33,7 +33,13 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StopWatchTask", "StopWatchT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackTask", "StackTask\StackTask.csproj", "{A03F2F96-105D-410F-959F-93BC5C2784E2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq", "Linq\Linq.csproj", "{EEB17C2D-2DAB-4D4E-AEB7-31BE8D95A7C3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Linq&LambdaExpression", "Linq\Linq&LambdaExpression.csproj", "{EEB17C2D-2DAB-4D4E-AEB7-31BE8D95A7C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExceptionHandling", "ExceptionHandling\ExceptionHandling.csproj", "{C681A8FB-E1A6-4D99-BB03-4BE66ED8C645}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delegate", "Delegate\Delegate.csproj", "{5E2CF5EA-395A-4818-96D6-6D024A7226DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpression", "LambdaExpression\LambdaExpression.csproj", "{D51F6D6A-FF65-4FEF-97B5-23DF8872F714}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +111,18 @@ Global
 		{EEB17C2D-2DAB-4D4E-AEB7-31BE8D95A7C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EEB17C2D-2DAB-4D4E-AEB7-31BE8D95A7C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EEB17C2D-2DAB-4D4E-AEB7-31BE8D95A7C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C681A8FB-E1A6-4D99-BB03-4BE66ED8C645}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C681A8FB-E1A6-4D99-BB03-4BE66ED8C645}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C681A8FB-E1A6-4D99-BB03-4BE66ED8C645}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C681A8FB-E1A6-4D99-BB03-4BE66ED8C645}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E2CF5EA-395A-4818-96D6-6D024A7226DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E2CF5EA-395A-4818-96D6-6D024A7226DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E2CF5EA-395A-4818-96D6-6D024A7226DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E2CF5EA-395A-4818-96D6-6D024A7226DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D51F6D6A-FF65-4FEF-97B5-23DF8872F714}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D51F6D6A-FF65-4FEF-97B5-23DF8872F714}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D51F6D6A-FF65-4FEF-97B5-23DF8872F714}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D51F6D6A-FF65-4FEF-97B5-23DF8872F714}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
